@@ -31,12 +31,12 @@ const Signup = () =>{
     }
 
     return (
-        <div className='signBox'>
+        <div className='signBox dowhite'>
             <h1>Sign Up</h1>
             <input className='inputBox' type='text' value={name} onChange={(e) => setName(e.target.value)} placeholder='Enter Name'></input>
             <input className='inputBox' type='text' value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Enter Email'></input>
             <input className='inputBox' type='password' value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Enter Password'></input>
-            <button onClick={collectData}>Signup</button>
+            <button className='app-btn' onClick={collectData}>Signup</button>
         </div>
     )
 }

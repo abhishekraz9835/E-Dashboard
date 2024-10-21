@@ -36,12 +36,12 @@ const Login = () =>{
     
     return(
         <div class="login">
-            <h1>Login</h1>
+            <h1 className='dowhite'>Login</h1>
             <input type = 'text' className='inputBox' placeholder='enter email'
             onChange={(e)=>setEmail(e.target.value)} value={email}></input>
             <input type = 'password' className='inputBox' placeholder='enter password'
             onChange={(e)=>setPassword(e.target.value)} value={password}></input>
-            <button onClick={handleLogin} className='app-btn' type='button'>Sign Up</button>
+            <button onClick={handleLogin} className='app-btn' type='button'>Login</button>
         </div>
     )
 }

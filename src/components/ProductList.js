@@ -42,9 +42,9 @@ const ProductList = () =>{
 
     return(
         <div className='product-list'>
-            <h2>Product List</h2>
+            <h2 className='dowhite'>Product List</h2>
         <input className="searchbar" type='text' placeholder='Search Product' onChange={searchHandle}></input>
-             <ul>
+             <ul className='unorder-list'>
                 <li>S. No</li>
                 <li>Name</li>
                 <li>Price</li>
@@ -54,7 +54,7 @@ const ProductList = () =>{
              </ul>
              {
                 products.length > 0 ? products.map((item,index)=>
-                    <ul>
+                    <ul className='unorder-list'>
                         <li>{index+1}</li>
                         <li>{item.name}</li>
                         <li>${item.price}</li>

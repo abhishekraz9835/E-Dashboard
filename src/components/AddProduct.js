@@ -28,7 +28,7 @@ const AddProduct = ()=>{
     }
     return(
         <div className='product'>
-            <h1>Add Product </h1>
+            <h1 className='dowhite'>Add Product </h1>
             <input value={name} onChange={(e)=>{setName(e.target.value)}} className='inputBox' type='text' placeholder='Enter Product name'>
             </input>
             {error && !name && <span className='invalid-input'>Enter valid name</span> }

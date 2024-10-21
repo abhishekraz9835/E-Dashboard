@@ -30,6 +30,7 @@
 
 .signBox h1{
   margin-left: 100px;
+  margin-top: 100px;
 }
 .inputBox{
   display: block;
@@ -51,8 +52,12 @@
 }
 
 .login{
-  margin-left: 30%;
+  margin-left: 40%;
   margin-top: 100px;
+}
+
+.login h1{
+  margin-left: 120px;
 }
 
 .nav-right{
@@ -112,5 +117,24 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.heading{
+  display: inline;
+  position: relative;
+  right: 400px;
+  color: aliceblue;
+}
+
+body{
+  background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-blue-smart-light-tech-background-picture-image_939986.jpg");
+}
+
+.dowhite{
+  color: aliceblue;
+}
+
+.unorder-list{
+  color: #fff;
 }
 
